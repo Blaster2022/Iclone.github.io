@@ -1,18 +1,18 @@
 import { GameMechanicState } from "../game-mechanics/index";
 
 export const orderedEffectList = ["powerpow", "infinitypow", "replicationpow", "timepow",
-  "dilationpow", "timeshardpow", "powermult", "powerdimboost", "powerbuy10",
-  "dilationTTgen", "infinityinfmult", "infinityIP", "timeEP",
+  "dilationpow", "timeshardpow", "effarigpow", "celestialspow", "powermult", "powerdimboost", "powerbuy10",
+  "dilationTTgen", "celestialsRTgen", "infinityinfmult", "infinityIP", "timeEP", 
   "dilationDT", "replicationdtgain", "replicationspeed",
-  "timeetermult", "dilationgalaxyThreshold", "infinityrate", "replicationglyphlevel",
-  "timespeed",
+  "timeetermult", "effarigmachmult", "dilationgalaxyThreshold", "celestialgalaxyThreshold", "infinityrate", "replicationglyphlevel",
+  "timespeed", "effarigspeed", 
   "effarigblackhole", "effarigrm", "effarigglyph", "effarigachievement",
   "effarigforgotten", "effarigdimensions", "effarigantimatter",
-  "cursedgalaxies", "cursedtickspeed", "curseddimensions", "cursedEP",
-  "realityglyphlevel", "realitygalaxies", "realityrow1pow", "realityDTglyph",
+  "cursedgalaxies", "cursedtickspeed", "curseddimensions", "cursedEP", "cursedRM", 
+  "realityglyphlevel", "realitygalaxies", "realityrow1pow", "realityDTglyph", "antilityglyphlevel", "antilitygalaxies", "antilityrow1pow", "antilitycelglyph", 
   "companiondescription", "companionEP"];
 
-export const generatedTypes = ["power", "infinity", "replication", "time", "dilation", "effarig"];
+export const generatedTypes = ["power", "infinity", "replication", "time", "dilation", "effarig", "celestials", "antility"];
 
 // eslint-disable-next-line no-unused-vars
 export const GlyphEffectOrder = orderedEffectList.mapToObject(e => e, (e, idx) => idx);
